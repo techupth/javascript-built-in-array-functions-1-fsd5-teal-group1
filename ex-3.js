@@ -8,6 +8,7 @@ const todos = [
 
 function getTodoTopics(todos) {
   // Start coding here
+  return todos.map((todos)=>todos.topic)
 }
 
 getTodoTopics(todos);
@@ -22,3 +23,4 @@ getTodoTopics(todos);
 		'Clean the room'
 	]
 */
+console.log(getTodoTopics(todos));
